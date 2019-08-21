@@ -1,0 +1,38 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add react-native
+
+PATH: 
+  /usr/local/opt/llvm/bin:/usr/local/Cellar/rabbitmq/3.7.5//sbin:/Users/zhengpingli/anaconda2/bin:/Library/Frameworks/Mono.framework/Versions/5.8.1/bin:/Users/zhengpingli/Library/Android/sdk/platform-tools:/usr/local/mysql/bin:/Users/zhengpingli/work/apache-tomcat-9.0.0/bin:/Users/zhengpingli/work/scala-2.12.2/bin:/Users/zhengpingli/work/elasticsearch-6.3.2/bin:/Users/zhengpingli/work/apache-maven-3.3.9/bin:/Users/zhengpingli/work/zookeeper-3.4.9/bin:/Library/Frameworks/Mono.framework/Versions/5.8.1/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin:/Users/zhengpingli/work/phantomjs-2.1.1-macosx//bin:/Users/zhengpingli/work/apache-activemq-5.15.5/bin:/Users/zhengpingli/work/mongodb-osx-x86_64-3.6.3/bin:/Users/zhengpingli/go/bin:/Users/zhengpingli/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/zhengpingli/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/zhengpingli/work/ipfs/ppio/MyApplication/package.json: Unexpected token / in JSON at position 27
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "RNHybridDemo",//可自定义
+    "version": "0.0.1",//可自定义
+    "private": true,
+    "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start" //必填
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
